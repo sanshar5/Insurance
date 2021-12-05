@@ -19,7 +19,7 @@
     td {
         /* border: 1px solid black; */
         border-collapse: collapse;
-        border: 1px solid black;
+        border: 0px solid black;
         
     }
     select {
@@ -37,8 +37,31 @@
   width: 100px;
   height: 100px;
   padding: 5px;
-  
+      }
+      td.hover{
+       
+       background-color: red;
+       text-align: center;
+      
+       
+   }
+   td.hover:hover{
+       background-color: rgb(115, 255, 197);
+   }
+   td.para{
+       vertical-align: top;
+   }
+   a.link:hover{
+        background-color: rgb(115, 255, 197);
     }
+    a.link{
+        text-decoration:none;
+        color: black;
+    }
+    td.link:hover{
+        background-color: rgb(115, 255, 197);
+    }
+    
     
       
 </style>
@@ -66,7 +89,7 @@
        
         <tr style="background-color: rgb(253, 204, 98);">
             <td colspan="2"> </td>
-            <td colspan="1" style="text-align: center;"><a href="insurance.html" style="color: black;">Home</a></td>
+            <td colspan="1" style="text-align: center;" class="link"><a href="insurance.html" class="link" >Home</a></td>
             <td colspan="2" style="text-align: center;">
             <select style="background-color:rgb(253, 204, 98); border: 0px;" >
                 <option value="About us" style="background-color: lightgreen;">About Us</option>
@@ -186,6 +209,25 @@
                         </td>
                     </tr>
                 </table>
+                <td class="para">
+                    <table>
+                        <tr>
+                            <td class="hover">
+                              <h3> <a href="contact.html" class="link">Contact Us</a> </h3> <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hover">
+                                <h3>Buy a Policy</h3> <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hover">
+                                <h3>Products</h3><hr>
+                            </td>
+                        </tr>
+                    </table>
+                 </td>
             </td>
           
             <!-- Main Content Ends -->
@@ -202,7 +244,7 @@
              (Insurance Regulatory Authority of Nepal) <br>
              Pokhara-5, Kaski, Nepal <br>
              TEL:061-423158, 061-521521 <br>
-             Toll Free No. : 1660-01-56789 <br>
+             Toll Free No. : 1234-56-78900  <br>
              Official Email:fine@gmail.com.np <br>
                                      
             </address>

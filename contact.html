@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insurance</title>
-    <link rel="icon" type="image/x-icon" href="download.jpg">
 </head>
 <style>
      table {
@@ -28,31 +27,10 @@
         background-color: white;
         text-align: center;
     }
-    span.a {
-  display: inline; 
-    }
-    span.b {
-  display: inline-block;
-  
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  
-    }
-    td.hover{
-       
-        background-color: red;
-        text-align: center;
-        
-    }
-    td.hover:hover{
+    a.link:hover{
         background-color: rgb(115, 255, 197);
-    }
-    td.para{
-        vertical-align: top;
         
     }
-    
     a.link{
         text-decoration:none;
         color: black;
@@ -60,7 +38,27 @@
     td.link:hover{
         background-color: rgb(115, 255, 197);
     }
-      
+
+    td.hover{
+       
+        background-color: red;
+        text-align: center;
+                
+    }
+    td.hover:hover{
+        background-color: rgb(115, 255, 197);
+    }
+    td.para{
+        vertical-align: top;
+    }
+    p{
+        margin: 0px;
+    } 
+    td.fine{
+        background-color: rgb(250, 183, 183);
+    }  
+   
+    
 </style>
 <body>
     <table style="background-color: cornsilk;">
@@ -118,104 +116,122 @@
         <tr style="background-color: burlywood;">
             <td colspan="13"></td>           
         </tr>
-        <tr>
-            <!-- Side Menu -->
-            <td colspan="3" style="vertical-align: top;">
-                <table style="border-right: 1px solid black; margin-bottom: 5px; margin-top: 20px; background-color: rgb(115, 255, 197);">
-                    <tr>
-                        <td>
-                            <h4 style="text-align: center;">Dashboard</h4>
-                            <hr>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4 style="text-align: center;">Users</h4>
-                            <hr>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4 style="text-align: center;">Openings</h4>
-                            <hr>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4 style="text-align: center;">Files</h4>
-                            <hr>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <!-- Side Menu ends -->
-
-            <!-- Main Content -->
-         <td colspan="9">
-             
+    </table> 
+    <div>
+        <table>
+            <tr>
+                <tr>
+                    <h1></h1>
+                </tr>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="1"></td>
+                <td colspan="12">
+                    <h2 style="margin: 0px;">Contact Us</h2>
+                    <p>Send Us Your Feedback</p>
+                </td>
+            </tr>
+        </table>
+        <table>
+               
+            <tr>
+                
+                <td colspan="1"></td>
+               <td colspan="7">
+               <table>
+                   <tr>
+                       <td>
+                        <form action="contact.html">
+                            <label for="name">
+                                <input type="text" placeholder="Your Name">
+                            </label>
+                        </form>
+                       </td>
+                       
+                   </tr>
+                   <tr>
+                       <td><h1></h1></td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <form action="contact.html">
+                               <label for="email">
+                                   <input type="text" name="" id="" placeholder="Valid Email">
+                               </label>
+                           </form>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <h1></h1>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <textarea name="query" id="" cols="70" rows="15" placeholder="Feedback"></textarea>
+                       </td>
+                   </tr>
+               </table>
+               </td>
+               <td colspan="3" class="fine">
+                   <div  >
+                       <table>
+                           
+                           <tr >
+                               <td colspan="1"></td>
+                               <td colspan="3">
+                                   <strong>Address</strong>
+                                   <p>Dharapani,Parsyang-5,Pokhara</p>
+                                   <p>Kaski,Nepal</p>
+                               </td>
+                           </tr>
+                           <tr><td><h5></h5></td></tr>
+                           <tr>
+                               <td colspan="1"></td>
+                               <td colspan="3">
+                                   <strong>Contact Number</strong>
+                                   <p> 061-521521</p>
+                                   <p> 1234-56-78900</p>
+                               </td>
+                           </tr>
+                           <tr><td><h5></h5></td></tr>
+                           <tr>
+                               <td colspan="1"></td>
+                               <td colspan="3">
+                                   <strong>Contact Email</strong>
+                                   <p>fine@gmail.com.np</p>
+                               </td>
+                           </tr>
+                       </table>
+                   </div>
+               </td>
+               <td></td>
+               <td class="para">
                 <table>
                     
                     <tr>
-                        
-                        <td>
-                            
-                            <h2>Our Products:</h2>
-                            <marquee behavior="" direction="" scrollamount="2">
-                              <span class="a">
-                                <div style="height: fit-content; width: fit-content; background-color:rgb(190, 250, 79);"> 
-                                    <h4>1. Gurans Savadhik Jeevan Beema Yojana <br> (Endowment with Profit Policy)</h4>  
-                                    <pre>
-        The most popular form of life insurance  
-        since it makes provision for the family 
-        of the Assured in the event of early death,
-        as also assures a lump sum amount at a 
-        desired age....
-        <a href="product.html">Learn More</a>
-                                    </pre>                 
-                                   </div>
-                              </span>
-                               <span class="b">
-                                <div style="height: fit-content; width: fit-content; background-color: rgb(190, 250, 79);" class="roll"> 
-                                    <h4>2. Gurans Surakshit Bhavisya Jeevan <br> Beema Yojana ( Pension Plan)</h4>  
-                                    <pre>
-        This policy provides combine benefit of
-        endowment policy, whole life and annual 
-        pension after premium paying term.
-                                    </pre>                 
-                                   </div>
-                               </span>
-                            </marquee>
+                        <td class="hover">
+                          <h3> <a href="contact.html" class="link">Contact Us</a> </h3> <hr>
                         </td>
                     </tr>
-                   
+                    <tr>
+                        <td class="hover">
+                            <h3>Buy a Policy</h3> <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="hover">
+                            <h3>Products</h3><hr>
+                        </td>
+                    </tr>
                 </table>
-               <td class="para">
-                  <table>
-                      <tr>
-                          <td class="hover">
-                            <h3> <a href="contact.html" class="link">Contact Us</a> </h3> <hr>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td class="hover">
-                              <h3>Buy a Policy</h3> <hr>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td class="hover">
-                              <h3>Products</h3><hr>
-                          </td>
-                      </tr>
-                  </table>
                </td>
-            </td>
-          
-            <!-- Main Content Ends -->
-        </tr>
-    </table>
-    
-   
-    
+            </tr>
+            
+        </table>       
+    </div>
     <footer style="background-color:rgb(196, 119, 119); margin-right: 200px;">
         <div style="margin-left: 50px; margin-top: 100px;">
          <address>
@@ -238,7 +254,5 @@
            <span><a href="twitter.com"> <img src="twitter.png" alt="twitter" width="20px" height="20px"></a></span>
         </div>
     </footer>
-   
-
 </body>
 </html>
