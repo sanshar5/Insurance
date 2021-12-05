@@ -1,17 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
     <title>Form</title>
 </head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .header {
+        text-align: center;
+        margin: 60px 0px;
+        font-weight: 600;
+    }
+
+    form {
+        box-shadow: 5px 10px 18px #888888;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .title {
+        margin-left: 10px;
+    }
+
+    .input-box {
+        padding: 4px;
+        margin: 8px 6px;
+    }
+
+    input {
+        padding: 16px 8px;
+        width: 100%;
+        outline: none;
+        border: 1px solid #eee;
+        border-radius: 5px;
+    }
+
+    textarea {
+        margin: 2px 6px;
+        outline: none;
+        outline: none;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    button {
+        width: 100px;
+        font-size: .7em;
+        padding: 10px;
+        background-color: #5386F8;
+        border: #5386F8;
+        margin: 2px 6px;
+        outline: none;
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .contact-address {
+        background-color: #5386F8;
+        height: 480px;
+        width: 300px;
+        border-radius: 8px;
+    }
+</style>
+
 <body>
-    <h1>Hello this is a form</h1>
-    <form>
-        <input type="text" name="" id="">
-        <input type="password" name="" id="">
-        <input type="submit">
-    </form>
+    <table>
+        <!-- Header Starts -->
+        <tr>
+            <td colspan="12">
+                <div class="header">
+                    <h2>Contact Form #01</h2>
+                </div>
+            </td>
+        </tr>
+        <!-- Header Ends -->
+
+        <!-- Form Starts -->
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="5">
+                <form>
+                    <table>
+                        <tr>
+                            <td colspan="12">
+                                <h4 class="title">Get in touch</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">
+                                <div class="input-box">
+                                    <input placeholder="Name" type="text" name="Name">
+                                </div>
+                            </td>
+                            <td colspan="6">
+                                <div class="input-box">
+                                    <input placeholder="Email" type="email" name="Email">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="12">
+                                <div class="input-box">
+                                    <input placeholder="Subject" type="text" name="Subject">
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="12">
+                                <div class="input-box">
+                                    <textarea placeholder="Message" name="Message" id="" cols="40" rows="10"></textarea>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="12">
+                                <button>Send Message</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td colspan="4">
+                <div class="contact-address">
+                    <table>
+                        <tr>
+                            <td colspan="1"></td>
+                            <td colspan="10">
+                                <h3 style="color: #fff; margin: 50px 0px 20px 0px;">Contact us</h3>
+                            </td>
+                            <td colspan="1"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="1"></td>
+                            <td colspan="1">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Ei-location.svg">
+                            </td>
+                            <td colspan="9">
+                                <p style="color: #fff;">
+                                    Address: 198 West 21th
+                                </p>
+                                <p style="color: #fff;">
+                                    Street, Suite 721 New York NY
+                                </p> 
+                                <p style="color: #fff;">
+                                    10016
+                                </p>
+                            </td>
+                            <td colspan="1"></td>
+                        </tr>
+
+                        <tr style="margin-top: 10px;">
+                            <td colspan="1"></td>
+                            <td colspan="1">
+                                <img style="width: 90%;" src="https://pic.onlinewebfonts.com/svg/img_503524.png">
+                            </td>
+                            <td colspan="9">
+                                <p style="color: #fff;">
+                                    Phone: +123 113 13123
+                                </p>
+                            </td>
+                            <td colspan="1"></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td colspan="1"></td>
+        </tr>
+
+
+
+    </table>
 </body>
+
 </html>
