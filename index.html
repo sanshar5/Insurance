@@ -15,16 +15,24 @@
         table-layout: fixed;
         width: 100%;
     }
-    body{
-        background-attachment: fixed;
-        background-image: url(images.png); 
-        background-repeat: no-repeat;
-        background-position: center;
+    
+    table, td, th{
+        border: 0px solid black;
+    }
+    input{
+        outline-color: burlywood;
+        height: 20px;
+    }
+    form{
+        padding: 10px;
+    }
+    img{
+        opacity:0.5 ;
         
-    }  
+    }
    
 </style>
-<body>
+<body> 
   <table>
       <tr>
           <td colspan="3"></td>
@@ -63,6 +71,16 @@
            </tr>
        </table>
      </table>
+     <table>
+         <tr>
+             <td colspan="4"></td>
+             <td colspan="4">
+                <img src="images.png" alt="Laliguras" >
+             </td>
+             <td colspan="4"></td>
+         </tr>
+     </table>  
   </table>
+   
 </body>
 </html>

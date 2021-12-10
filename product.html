@@ -49,7 +49,8 @@
        background-color: rgb(115, 255, 197);
    }
    td.para{
-       vertical-align: top;
+    vertical-align: top;
+       margin-top: 20px;
    }
    a.link:hover{
         background-color: rgb(115, 255, 197);
@@ -61,12 +62,17 @@
     td.link:hover{
         background-color: rgb(115, 255, 197);
     }
+    .up-arrow{
+        background-color: aquamarine;
+        text-align: center;
+
+    }
     
     
       
 </style>
 <body>
-    <table style="background-color: cornsilk;">
+    <table style="background-color: cornsilk;" id="top">
         <tr>
             <td colspan="3"></td>
             <td colspan="6">
@@ -210,7 +216,7 @@
                     </tr>
                 </table>
                 <td class="para">
-                    <table>
+                    <table style="margin-top: 20px;">
                         <tr>
                             <td class="hover">
                               <h3> <a href="contact.html" class="link">Contact Us</a> </h3> <hr>
@@ -236,19 +242,38 @@
     
    
     
-    <footer style="background-color:rgb(196, 119, 119); margin-right: 200px;">
-        <div style="margin-left: 50px; margin-top: 100px;">
-         <address>
-             CONTACT ADDRESS: <br>
-             BEEMA SAMITI<br>
-             (Insurance Regulatory Authority of Nepal) <br>
-             Pokhara-5, Kaski, Nepal <br>
-             TEL:061-423158, 061-521521 <br>
-             Toll Free No. : 1234-56-78900  <br>
-             Official Email:fine@gmail.com.np <br>
-                                     
-            </address>
-        </div>
+    <footer >
+        <table>
+            <tr>
+                <td colspan="11" style="background-color:rgb(196, 119, 119);">
+                    <div>
+                        <address>
+                            CONTACT ADDRESS: <br>
+                            BEEMA SAMITI<br>
+                            (Insurance Regulatory Authority of Nepal) <br>
+                            Pokhara-5, Kaski, Nepal <br>
+                            TEL:061-423158, 061-521521 <br>
+                            Toll Free No. : 1234-56-78900  <br>
+                            Official Email:fine@gmail.com.np <br>
+                                                    
+                           </address>
+                       </div>
+                </td>
+                <td colspan="1">
+                    <table>
+                        <tr>
+                            <td colspan="5"></td>
+                            <td colspan="2">
+                                <div class="up-arrow">
+                                    <a href="#top"> &uarr;</a>
+                                 </div>
+                            </td>
+                            <td colspan="5"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
     </footer>  
     <footer>
         <div style="margin-left: 50px; margin-top: 10px;">
