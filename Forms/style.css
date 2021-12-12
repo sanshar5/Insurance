@@ -50,13 +50,24 @@ h1{
     width: 400px;
     height: 30px;
 }
-.date{
+
+
+::-webkit-calendar-picker-indicator{
     background-image: url(icon.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    
 }
 
 
-
+button{
+    background-color: rgb(247, 154, 154);
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    font-size: 17px;
+    border: 2px solid green;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: seagreen;
+    color: seashell;
+}
 
