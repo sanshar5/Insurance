@@ -21,18 +21,20 @@ div.name{
 }
 .input{
     border-color: rgb(155, 90, 64);
-    width: 400px;
-    height: 30px;
+    width: 100%;
+    height: 50px;
     border-radius: 12px;
-    padding: 10px;
-    margin: 10px;
+    
+    margin: 10px 0px;
     border-color: rgb(155, 90, 64);
 }
+
 .text{
     border-radius: 8px;
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
 }
+
 button{
     border-radius: 8px;
     padding: 5px;
@@ -45,14 +47,41 @@ button:hover{
     background-color: coral;
     color: white;
 }
+
 div.address{
     background-color: rgb(64, 204, 247);
-    height: 550px;
+    height: 540px;
     width: 400px;
     border-radius: 8px;
     position: relative;
-    left: 230px;
-    bottom: 0px;
-    top: 18px;
-    display: inline-block;
+    right: 165px;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    margin: 0px; 
+    font-size: 20px; 
+}
+
+div.image{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+div.contact{
+    height: 50px;
+    width: 20px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+div.sub{
+    position: relative;
+    top: 100px;
+}
+strong{
+    font-size: 20px;
 }
