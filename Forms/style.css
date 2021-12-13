@@ -51,11 +51,9 @@ h1{
     height: 30px;
 }
 
-
-::-webkit-calendar-picker-indicator{
+.date::-webkit-calendar-picker-indicator{
     background-image: url(icon.png);
 }
-
 
 button{
     background-color: rgb(247, 154, 154);

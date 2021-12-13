@@ -1,0 +1,58 @@
+body{
+    background-color: azure;
+}
+div.heading{
+    font-size: 38px;
+    text-align: center;
+    font-style: oblique;
+}
+
+div.name{
+    background-color: bisque;
+    width: 450px;
+    height: 520px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    left: 250px;
+    top: 0px;
+    display: inline-block;
+}
+.input{
+    border-color: rgb(155, 90, 64);
+    width: 400px;
+    height: 30px;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(155, 90, 64);
+}
+.text{
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    left: 380px;
+    transition-duration: 0.3s;
+}
+button:hover{
+    background-color: coral;
+    color: white;
+}
+div.address{
+    background-color: rgb(64, 204, 247);
+    height: 550px;
+    width: 400px;
+    border-radius: 8px;
+    position: relative;
+    left: 230px;
+    bottom: 0px;
+    top: 18px;
+    display: inline-block;
+}
