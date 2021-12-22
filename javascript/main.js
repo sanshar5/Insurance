@@ -66,3 +66,9 @@ function keyClick(id) {
         document.getElementById('plus-minus-indicator').innerHTML = plusMinusIndicator;
     }
 }
+
+function keyPress(e) {
+    if(e.keyCode === 13) {
+        keyClick('equals');
+    }
+}
