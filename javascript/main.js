@@ -21,10 +21,14 @@ const operators = {
 let stack = [];
 let lastInput = '';
 let lastOperator = '';
+let plusMinusIndicator = '+';
 
 function keyClick(id) {
+    const inputRef = document.getElementById('display-result');
     if (id === 'clear') {
-        document.getElementById('display-result').value = '';
+        inputRef.value = '';
+        plusMinusIndicator = '';
+        document.getElementById('plus-minus-indicator').innerHTML = '';
         stack = [];
         return;
     }
@@ -32,9 +36,9 @@ function keyClick(id) {
     if (id in numbers) {
         num = numbers[id];
         if (lastInput === 'number') {
-            document.getElementById('display-result').value += numbers[id];
+            inputRef.value += numbers[id];
         } else {
-            document.getElementById('display-result').value = numbers[id];
+            inputRef.value = numbers[id];
         }
         lastInput = 'number';
     }
@@ -43,15 +47,22 @@ function keyClick(id) {
         if (lastInput === 'operator') {
             stack[stack.length - 1] = operators[id];
         } else {
-            stack.push(document.getElementById('display-result').value);
+            stack.push(inputRef.value);
             stack.push(operators[id]);
         }
         lastInput = 'operator';
     }
 
     if (id === 'equals') {
-        stack.push(document.getElementById('display-result').value);
+        stack.push(inputRef.value);
         let expression = stack.join('');
-        document.getElementById('display-result').value = eval(expression);
+        const result = eval(expression);
+        inputRef.value = eval(expression);
+        stack = [];
+    }
+
+    if (id === 'plus-minus') {
+        plusMinusIndicator = plusMinusIndicator === '' ? '-' : '';
+        document.getElementById('plus-minus-indicator').innerHTML = plusMinusIndicator;
     }
 }
