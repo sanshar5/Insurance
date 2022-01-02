@@ -125,10 +125,26 @@ console.log(change());
 */
 
 function nextinline(arr, item){
-    return item;
+    arr.push(item)
+    return arr.shift();
 }
 var testarr = [1,2,3,4,5]
 
-console.log("Before" + JSON.stringify(testarr));
+console.log("Before:" + JSON.stringify(testarr));
 console.log(nextinline(testarr, 6));
-console.log("After" + JSON.stringify(testarr));
+console.log("After:" + JSON.stringify(testarr));
+
+
+
+/*
+function click(iftrue){
+   const inputRef = document.getElementById('age')
+   if (id === '18'){
+       return "yes, you are eligible"
+   }
+   else {
+       return "No, you aren't"
+   }
+}
+console.log(click)
+*/
