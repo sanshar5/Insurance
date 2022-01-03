@@ -1,3 +1,4 @@
+
 let difference = 45 - 15;
 console.log(difference)
 
@@ -109,20 +110,21 @@ function times(num){
 }
 console.log(times(5));
 
-/*
-let sum = "9";
+
+let sum = 9;
 function add(){
     sum = sum + 6;
+    return sum;
 }
-console.log(add)
+console.log(add());
 
 
 var number = 15;
-function change(number){
+function change(){
     return (number + 5) / 4;
 }
 console.log(change());
-*/
+
 
 function nextinline(arr, item){
     arr.push(item)
@@ -136,15 +138,14 @@ console.log("After:" + JSON.stringify(testarr));
 
 
 
-/*
-function click(iftrue){
-   const inputRef = document.getElementById('age')
+
+function click(){
+   const id = document.getElementById('age').value
    if (id === '18'){
-       return "yes, you are eligible"
+       return "yes, you are eligible";
    }
    else {
-       return "No, you aren't"
+       return "No, you aren't";
    }
 }
-console.log(click)
-*/
+console.log(click())
