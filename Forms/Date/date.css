@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+div.e{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    left: 250px;
+    top: 0px;
+    width: 250px;  
+    float: left;
+}
+
+div.i{
+    border-radius: 8px;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    top: 0px;
+    left: 250px;
+    display: inline-block;
+}
+
+
+button{
+    border-radius: 8px;
+    height: 30px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+button:hover{
+    background-color: darkgrey;
+}
+
+p{
+    font-size: 20px; 
+}
+

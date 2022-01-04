@@ -1,11 +1,12 @@
 function myfunction(){
-    var age = document.getElementById('age').value;
-
+    let check = document.getElementById('demo').innerHTML = age;
+    let age = document.getElementById('age').value;
+    
     if(age >= 18){
-        alert('You are Eligible')
+        return('You are Eligible')
     }
     else{
-        alert('You are not Eligible')
+        return('You are not Eligible')
     }
 }
 
