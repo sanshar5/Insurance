@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    height: 500px;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+}
+td{
+    text-align: center;
+    
+}
+button.box{
+    width: 70px;
+    height:30px;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover.box{
+    background-color: #30e9a5;
+}
+
+.gret{
+    width: 70px;
+    height:30px;
+    background-color:#f1f1f1 ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+:hover.gret{
+    background-color: #cfcccc;
+}
+
+
