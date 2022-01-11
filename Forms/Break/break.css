@@ -1,0 +1,12 @@
+button{
+    background-color: burlywood;
+    border-radius: 8px;
+    height: 35px;
+    width: 75px;
+}
+button:hover{
+    background-color: cornsilk;
+}
+h1{
+    text-align: center;
+}
