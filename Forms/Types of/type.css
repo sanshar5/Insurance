@@ -1,0 +1,36 @@
+div.main{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid black;
+}
+div.main1{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+div.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    float: left;
+    margin-top: 5px;
+    
+}
+div.sub1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    float: left;
+   margin-top: 5px;
+}
