@@ -8,8 +8,9 @@ function myfunction(){
     document.getElementById("demo").innerHTML = text;
 }
 
-function myfunction1(){
-    const para = ["Sanshar ", " Sharma ", " is a ", " Good "," Person "," and he is "," Handsome. "];
+function myfunction1()
+{
+   const para = ["Sanshar ", " Sharma ", " is a ", " Good "," Person "," and he is "," Handsome. "];
     let sentence = "";
     
     list: {
@@ -28,26 +29,29 @@ function myfunction1(){
     document.getElementById("demo1").innerHTML = sentence;
 }
 
-  document.getElementById("sting").innerHTML = "Name is" + typeof "Sanshar";
 
-  document.getElementById("number").innerHTML = typeof 3.14 ;
 
-  document.getElementById("number1").innerHTML = typeof NaN ;
 
-  document.getElementById("boolean").innerHTML = typeof false;
+document.getElementById("sting").innerHTML = "Name is" + typeof "Sanshar";
 
-  document.getElementById("object").innerHTML = typeof [1,2,3,4];
+document.getElementById("number").innerHTML = typeof 3.14 ;
 
-  document.getElementById("object1").innerHTML = typeof {name:'Bishnu', age:40};
+document.getElementById("number1").innerHTML = typeof NaN ;
 
-  document.getElementById("object2").innerHTML = typeof new Date() ;
+document.getElementById("boolean").innerHTML = typeof false;
+
+document.getElementById("object").innerHTML = typeof [1,2,3,4];
+
+document.getElementById("object1").innerHTML = typeof {name:'Bishnu', age:40};
+
+document.getElementById("object2").innerHTML = typeof new Date() ;
   
-  document.getElementById("function").innerHTML = typeof function () {};
+document.getElementById("function").innerHTML = typeof function () {};
 
-  document.getElementById("undefine").innerHTML = typeof myCar;
+document.getElementById("undefine").innerHTML = typeof myCar;
 
-  document.getElementById("object3").innerHTML = typeof null;
- /*
+document.getElementById("object3").innerHTML = typeof null;
+/*
 
   document.getElementById("operator").innerHTML = 
   typeof "john" + "<br>" +
@@ -60,4 +64,5 @@ function myfunction1(){
   typeof function () {} + "<br>" +
   typeof myCar + "<br>" +
   typeof null;
-  */
+*/
+
