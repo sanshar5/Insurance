@@ -32,13 +32,13 @@ function myfunction1()
 
 
 
-document.getElementById("sting").innerHTML = "Name is" + typeof "Sanshar";
+document.getElementById("sting").innerHTML = "Name is " + typeof "Sanshar";
 
-document.getElementById("number").innerHTML = typeof 3.14 ;
+document.getElementById("number").innerHTML = "Number is " + typeof 3.14 ;
 
-document.getElementById("number1").innerHTML = typeof NaN ;
+document.getElementById("number1").innerHTML ="NaN is " + typeof NaN ;
 
-document.getElementById("boolean").innerHTML = typeof false;
+document.getElementById("boolean").innerHTML = "True or false is " + typeof false;
 
 document.getElementById("object").innerHTML = typeof [1,2,3,4];
 
@@ -50,7 +50,7 @@ document.getElementById("function").innerHTML = typeof function () {};
 
 document.getElementById("undefine").innerHTML = typeof myCar;
 
-document.getElementById("object3").innerHTML = typeof null;
+document.getElementById("object3").innerHTML = "Null is " +  typeof null;
 /*
 
   document.getElementById("operator").innerHTML = 
