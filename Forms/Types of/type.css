@@ -38,3 +38,17 @@ div.sub1{
 strong{
     vertical-align: top;
 }
+
+input{
+    height: 35px;
+    border-radius: 12px;
+}
+
+button{
+    height: 25px;
+    border-radius: 8px;
+    background-color: rgb(202, 191, 175);
+}
+button:hover{
+    background-color: rgb(218, 212, 205);
+}
